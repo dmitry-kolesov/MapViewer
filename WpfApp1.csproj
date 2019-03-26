@@ -106,12 +106,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tests\Tests.csproj">
-      <Project>{e2cf4956-caf9-40f0-913b-312543160702}</Project>
-      <Name>Tests</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="maps\1.jpg" />
     <Resource Include="maps\2.jpg" />
     <Resource Include="maps\3.jpg" />
@@ -119,6 +113,12 @@
     <Resource Include="maps\5.gif" />
     <Resource Include="maps\6.jpg" />
     <Resource Include="maps\7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MapProjection\MapProjection.csproj">
+      <Project>{994c0855-1b96-4632-b455-e321f8313e5f}</Project>
+      <Name>MapProjection</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

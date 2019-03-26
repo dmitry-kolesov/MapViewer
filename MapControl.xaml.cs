@@ -1,17 +1,11 @@
-﻿// <copyright file="MapControl.xaml.cs" company="AnchorFree Inc.">
-// Copyright (c) AnchorFree Inc. All rights reserved.
-// </copyright>
-
-namespace WifiSecurity.Control.CustomControls
+﻿namespace WifiSecurity.Control.CustomControls
 {
     using System.Linq;
-    using System.Runtime.CompilerServices;
     using System.Windows;
     using System.Windows.Controls;
     using System.Windows.Media;
     using System.Windows.Shapes;
-
-    using Tests;
+    using MapProjection;
 
     /// <summary>
     /// Interaction logic for MapControl.xaml.
